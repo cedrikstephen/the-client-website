@@ -29,6 +29,18 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  max-width: 1440px;
+ 
+  min-height: calc(100% - 18px);
+ 
+  width: 100%;
+ 
+  @media (min-width: 800px) {
+    margin: 0 1rem;
+  }
+}
+
 .subtext {
   font-family: Martian Mono;
   line-height: 24px;
@@ -96,8 +108,13 @@ p {
 /*CARDS*/
 .row {
   width: 100%;
-  border: 1px solid black;
   border-width: 0px 1px;
+  border: 1px solid black;
+  border-width: 0px 1px 1px 1px;
+  .column:nth-child(n+3) {
+    border-right: 0;
+  }
+  
 }
 
 .row:after {
@@ -111,6 +128,10 @@ p {
   width: 33.3%;
   padding: 0 10px;
   border: 0.5px solid black;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 .card {
