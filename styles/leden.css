@@ -89,6 +89,10 @@ p {
 
 .filterlist {
   display: flex;
+
+  @media (max-width: 800px) {
+    display: inline-block;
+  }
 }
 
 .filterlist svg{
@@ -222,6 +226,11 @@ h4 {
     /* 10rem for each logo x 6 logos total = -60rem */
     transform: translateX(-60rem);
   }
+}
+
+.img-ticker-container {
+  overflow: hidden;
+  width: 100%;
 }
 
 .img-ticker {
