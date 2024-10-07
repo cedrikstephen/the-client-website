@@ -91,14 +91,18 @@ p {
   display: flex;
 }
 
+.filterlist svg{
+  margin: auto;
+}
+
 .filterlist p{
-  background-color: white;
-  padding: 10px;
-  border: 1px solid black;
+  border-right: 1px solid black;
+  padding: 18px 12px;
 }
 
 .filterlist a{
   display: flex;
+  border: 1px solid black;
 }
 
 .filter-item {
