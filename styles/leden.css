@@ -20,25 +20,14 @@
 
 html {
   min-height: 100vh;
-  margin: 20px;
 }
 
 body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-}
-
-.container {
-  max-width: 1440px;
- 
-  min-height: calc(100% - 18px);
- 
-  width: 100%;
- 
-  @media (min-width: 800px) {
-    margin: 0 1rem;
-  }
+  margin: 12px;
+  border: 1px solid black;
 }
 
 .subtext {
@@ -50,6 +39,7 @@ body {
 
 nav {
   display: flex;
+  padding: 24px;
 }
 
 .navbar {
@@ -60,6 +50,44 @@ nav {
 
 .navbar li {
   padding: 20px;
+
+  a {
+    text-decoration: none;
+    display: flex;
+    gap: 0.375rem;
+    align-items: center;
+    color: black;
+
+    a:active {
+      color: rgba(var(--blue));
+    }
+
+    span {
+      background-color: rgba(var(--blue));
+      color: rgba(var(--white));
+      font-weight: 300;
+      font-size: 0.75rem;
+      padding: 0 0.25rem;
+      height: fit-content;
+      line-height: 1rem;
+    }
+  }
+
+}
+
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.word_lid {
+  border: 1px solid black;
+
+  svg {
+    border-left: 1px solid black;
+    margin: auto;
+  }
 }
 
 h1 {
@@ -73,6 +101,10 @@ p {
   font-size: 18px;
   line-height: 32px;
   text-align: center;
+}
+
+.pagetop {
+  padding: 60px 0;
 }
 
 /* SUBTEXT HEADER LINK */
@@ -125,6 +157,10 @@ p {
 
 .filter-item {
   margin: 0px 1em;
+}
+
+.inloggen a{
+  color: rgba(var(--blue));
 }
 
 /*CARDS*/
@@ -206,7 +242,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0px;
+  padding: 60px 40px;
   border: 0.5px solid black;
 }
 
@@ -229,6 +265,11 @@ h4 {
   font-size: 32px;
   line-height: 40px;
   font-weight: 400;
+}
+
+.partners {
+  padding: 40px;
+  border: 1px solid black;
 }
 
 @keyframes ticker-kf {
@@ -261,4 +302,60 @@ h4 {
   align-self: flex-start;
   max-width: 100%;
   height: auto;
+}
+
+.footertop {
+  display: flex;
+  border: 1px solid black;
+}
+
+.footertop ul {
+  list-style-type: none;
+  width: 25%;
+  padding: 30px;
+  border-left: 1px solid black;
+}
+
+.footertop li {
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+.footertop li a {
+  text-decoration: underline;
+  color: rgba(var(--black));
+}
+
+.footerimage {
+  width: 50%;
+  height: max-content;
+}
+
+.footerimage img {
+  margin: 40px;
+}
+
+.footerheading {
+  font-weight: 800;
+}
+
+.footerbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.footerbottom ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.footerbottom li{
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+.footerbottom li a {
+  color: rgba(var(--black));
 }

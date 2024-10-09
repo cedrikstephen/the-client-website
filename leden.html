@@ -14,22 +14,73 @@
           <figure>
             <img src="./assets/logo.svg" alt="Dutch Digital Agencies logo" />
           </figure>
-          <ul class="subtext navbar">
-            <li><a href="">over ons</a></li>
-            <li><a href="">events</a></li>
-            <li><a href="">publicaties</a></li>
-            <li><a href="">leden</a></li>
-            <li><a href="">vacatures</a><span>54</span></li>
-          </ul>
-          <ul>
-            <li><a href="">inloggen</a></li>
-            <li><a href="">word lid</a></li>
-          </ul>
+          <div class="nav-elements">
+            <ul class="subtext navbar">
+              <li><a href="">over ons</a></li>
+              <li><a href="">events</a></li>
+              <li><a href="">publicaties</a></li>
+              <li><a href="">leden</a></li>
+              <li>
+                <a href="">vacatures<span>54</span></a>
+              </li>
+            </ul>
+            <ul class="subtext navbar">
+              <li class="inloggen">
+                <a href=""
+                  >inloggen
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 3L13.0001 8.0001L8 13.0002"
+                      stroke="#222226"
+                      stroke-width="1.5"
+                      stroke-miterlimit="4.62023"
+                    />
+                    <path
+                      d="M3 8L13 8"
+                      stroke="#222226"
+                      stroke-width="1.5"
+                      stroke-miterlimit="4.62023"
+                      stroke-linejoin="round"
+                    /></svg
+                ></a>
+              </li>
+              <li class="word_lid">
+                <a href=""
+                  >word lid<svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 3L13.0001 8.0001L8 13.0002"
+                      stroke="#222226"
+                      stroke-width="1.5"
+                      stroke-miterlimit="4.62023"
+                    />
+                    <path
+                      d="M3 8L13 8"
+                      stroke="#222226"
+                      stroke-width="1.5"
+                      stroke-miterlimit="4.62023"
+                      stroke-linejoin="round"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
         </nav>
-      </header> 
+      </header>
 
       <main>
-        <section>
+        <article class="pagetop">
           <p class="subtext">
             <svg
               width="17"
@@ -64,7 +115,7 @@
             Ook DDA lid worden? Ga dan naar
             <a class="ddalidlink" href="/">deze pagina</a> voor meer informatie.
           </p>
-        </section>
+        </article>
 
         <article class="filter">
           <input class="search" type="text" placeholder="Zoek een bureau..." />
@@ -73,47 +124,132 @@
             <li>
               <a class="subtext filter-item"
                 ><p>Expertise</p>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  </svg></a
-              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5L12 19.5"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 12L4.5 12"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
             </li>
             <li>
               <a class="subtext filter-item"
                 ><p>Branche</p>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  </svg></a
-              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5L12 19.5"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 12L4.5 12"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
             </li>
             <li>
               <a class="subtext filter-item"
                 ><p>Omvang</p>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  </svg></a
-              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5L12 19.5"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 12L4.5 12"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
             </li>
             <li>
               <a class="subtext filter-item"
                 ><p>Provincie</p>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  </svg></a
-              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5L12 19.5"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 12L4.5 12"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
             </li>
             <li>
               <a class="subtext filter-item"
                 ><p>Sorteren</p>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 4.5L12 19.5" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  <path d="M19.5 12L4.5 12" stroke="#222226" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
-                  </svg></a
-              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5L12 19.5"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19.5 12L4.5 12"
+                    stroke="#222226"
+                    stroke-width="1.5"
+                    stroke-miterlimit="4.62023"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
             </li>
           </ul>
         </article>
@@ -121,7 +257,11 @@
         <div class="row">
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/sumedia.png" alt="Mensen die op een trap zitten"/>
+              <img
+                class="cardimage"
+                src="assets/sumedia.png"
+                alt="Mensen die op een trap zitten"
+              />
               <article class="cardlabel">
                 <p class="subtext">Strategy</p>
                 <p class="subtext">Label</p>
@@ -137,7 +277,11 @@
 
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/msml.png" alt="Mensen die aan een tafel zitten met drank op tafel."/>
+              <img
+                class="cardimage"
+                src="assets/msml.png"
+                alt="Mensen die aan een tafel zitten met drank op tafel."
+              />
               <article class="cardlabel">
                 <p class="subtext">Development</p>
                 <p class="subtext">Label</p>
@@ -153,7 +297,11 @@
 
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/essense.png" alt="Een kamer met een tafel en 2 mensen die bij een whiteboard staan."/>
+              <img
+                class="cardimage"
+                src="assets/essense.png"
+                alt="Een kamer met een tafel en 2 mensen die bij een whiteboard staan."
+              />
               <article class="cardlabel">
                 <p class="subtext">Service Design</p>
               </article>
@@ -170,7 +318,11 @@
         <div class="row">
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/cleverfranke.png" alt="2 mannen die met een serieuze blik in de camera kijken"/>
+              <img
+                class="cardimage"
+                src="assets/cleverfranke.png"
+                alt="2 mannen die met een serieuze blik in de camera kijken"
+              />
               <article class="cardlabel">
                 <p class="subtext">Experience</p>
                 <p class="subtext">Label</p>
@@ -186,7 +338,11 @@
 
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/informaat.png" alt="Een werkruimte met een koffiebar"/>
+              <img
+                class="cardimage"
+                src="assets/informaat.png"
+                alt="Een werkruimte met een koffiebar"
+              />
               <article class="cardlabel">
                 <p class="subtext">Experience</p>
               </article>
@@ -201,7 +357,11 @@
 
           <div class="column">
             <div class="card">
-              <img class="cardimage" src="assets/mediamonks.png" alt="Een grote groep met juichende mensen"/>
+              <img
+                class="cardimage"
+                src="assets/mediamonks.png"
+                alt="Een grote groep met juichende mensen"
+              />
               <article class="cardlabel">
                 <p class="subtext">Production</p>
               </article>
@@ -227,38 +387,121 @@
           <p class="subtext loadeventstext">Meer events laden</p>
         </div>
 
-        <h4>Wij bedanken onze trouwe partners</h4>
+        <h4 class="partners">Wij bedanken onze trouwe partners</h4>
 
         <div class="img-ticker-container">
           <div class="img-ticker">
-            <img class="tickerlogo" src="assets/ictrecht.png" alt="logo ictrecht"/>
-            <img class="tickerlogo" src="assets/amac.png" alt="logo amac"/>
-            <img class="tickerlogo" src="assets/rootnet.png" alt="logo rootnet"/>
+            <img
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+              alt="logo ictrecht"
+            />
+            <img class="tickerlogo" src="assets/amac.png" alt="logo amac" />
+            <img
+              class="tickerlogo"
+              src="assets/rootnet.png"
+              alt="logo rootnet"
+            />
 
-            <img aria-hidden="true" class="tickerlogo" src="assets/ictrecht.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/rootnet.png"/>
-
-            <img aria-hidden="true" class="tickerlogo" src="assets/ictrecht.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/rootnet.png"/>
-
-            <img aria-hidden="true" class="tickerlogo" src="assets/ictrecht.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/rootnet.png"/>
-
-            <img aria-hidden="true" class="tickerlogo" src="assets/ictrecht.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png"/>
-            <img aria-hidden="true" class="tickerlogo" src="assets/rootnet.png"/>
-
-            <img aria-hidden="true" class="tickerlogo" src="assets/ictrecht.png"/>
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
             <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
-            <img aria-hidden="true" class="tickerlogo" src="assets/rootnet.png"/>
-           
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
           </div>
         </div>
       </main>
-      <footer></footer>
+
+      <footer>
+        <div class="footertop">
+          <div class="footerimage">
+          <img src="assets/logo.svg" />
+        </div>
+
+          <ul>
+            <li><a href="">Over Ons</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Publicaties</a></li>
+            <li><a href="">Leden</a></li>
+            <li><a href="">Vacatures</a></li>
+            <li><a href="">Algemene Voorwaarden</a></li>
+            <li><a href="">Privacybeleid</a></li>
+          </ul>
+
+          <ul>
+            <li class="non-links footerheading">Dutch Digital Agencies</li>
+            <li class="non-links">Overhoeksplein 1</li>
+            <li class="non-links">1031 KS Amsterdam</li>
+            <li><a href="">(0)854010391</a></li>
+            <li><a href="">info@dutchdigitalagencies.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footerbottom">
+          <ul class="socials">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+
+          <p>Copyright © 2023 Dutch Digital Agencies</p>
+        </div>
+      </footer>
+      
     </div>
     <script src="scripts/script.js"></script>
   </body>
