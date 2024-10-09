@@ -17,6 +17,8 @@ Voor De Voorhoede zijn wij bezig met het bouwen van de site van de Dutch Digital
 
 Bij dit project ben ik voornamelijk bezig met de "onze leden" pagina.
 
+!(https://github.com/cedrikstephen/the-client-website/blob/main/assets/coverleden.png)
+
 *Dutch Digital Agencies*
 DDA verbindt sinds 2002 toonaangevende digitale bureaus in Nederland. Met 167 leden delen zij kennis en stimuleren innovatie door evenementen zoals de Dutch Digital Day, waar digitalisering en technologie vanuit nieuwe invalshoeken worden belicht. DDA richt zich op samenwerking en talentontwikkeling, en zet zich in om de digitale industrie continu vooruit te helpen.
 
