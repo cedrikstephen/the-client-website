@@ -48,6 +48,20 @@ body {
   text-transform: uppercase;
 }
 
+nav {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.navbar li {
+  padding: 20px;
+}
+
 h1 {
   text-align: center;
   font-size: 96px;
