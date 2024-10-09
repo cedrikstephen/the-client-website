@@ -21,6 +21,7 @@ Bij dit project ben ik voornamelijk bezig met de "onze leden" pagina.
 
 
 *Dutch Digital Agencies*
+
 DDA verbindt sinds 2002 toonaangevende digitale bureaus in Nederland. Met 167 leden delen zij kennis en stimuleren innovatie door evenementen zoals de Dutch Digital Day, waar digitalisering en technologie vanuit nieuwe invalshoeken worden belicht. DDA richt zich op samenwerking en talentontwikkeling, en zet zich in om de digitale industrie continu vooruit te helpen.
 
 *Doel van de sprint review*
@@ -42,6 +43,16 @@ DDA verbindt sinds 2002 toonaangevende digitale bureaus in Nederland. Met 167 le
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 Deze website is gebouwd in HTML & CSS
+
+Alle knoppen werken (nog) niet.
+
+De pagina is gemaakt zonder grid. Voor de cards is flexbox gebruikt om deze netjes naast elkaar te zetten.
+
+IMG
+
+Ticker is volledig toegankelijk gemaakt voor screenreaders. De screenreader leest niet de hele ticker af maar alleen 1x de logos.
+
+IMG + CODE
 
 ## Licentie
 
