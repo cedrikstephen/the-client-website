@@ -48,12 +48,91 @@ Alle knoppen werken (nog) niet.
 
 De pagina is gemaakt zonder grid. Voor de cards is flexbox gebruikt om deze netjes naast elkaar te zetten.
 
-IMG
+![image](https://github.com/user-attachments/assets/bc537916-5c8d-444d-ae70-d5f564997f91)
 
 Ticker is volledig toegankelijk gemaakt voor screenreaders. De screenreader leest niet de hele ticker af maar alleen 1x de logos.
 
-IMG + CODE
+![image](https://github.com/user-attachments/assets/93619a05-4178-45a3-8a74-d0032e41cc6a)
 
+
+~~~
+<div class="img-ticker-container">
+          <div class="img-ticker">
+            <img
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+              alt="logo ictrecht"
+            />
+            <img class="tickerlogo" src="assets/amac.png" alt="logo amac" />
+            <img
+              class="tickerlogo"
+              src="assets/rootnet.png"
+              alt="logo rootnet"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/ictrecht.png"
+            />
+            <img aria-hidden="true" class="tickerlogo" src="assets/amac.png" />
+            <img
+              aria-hidden="true"
+              class="tickerlogo"
+              src="assets/rootnet.png"
+            />
+          </div>
+        </div>
+~~~
+          
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
